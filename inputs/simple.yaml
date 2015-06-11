@@ -1,0 +1,37 @@
+---
+- :inputs:
+    var_x: 1
+    var_y: 1
+  :output: 22
+- :inputs:
+    var_x: 1
+    var_y: 2
+  :output: 25
+- :inputs:
+    var_x: 1
+    var_y: 3
+  :output: 28
+- :inputs:
+    var_x: 2
+    var_y: 1
+  :output: 28
+- :inputs:
+    var_x: 2
+    var_y: 2
+  :output: 31
+- :inputs:
+    var_x: 2
+    var_y: 3
+  :output: 34
+- :inputs:
+    var_x: 3
+    var_y: 1
+  :output: 38
+- :inputs:
+    var_x: 3
+    var_y: 2
+  :output: 41
+- :inputs:
+    var_x: 3
+    var_y: 3
+  :output: 44
