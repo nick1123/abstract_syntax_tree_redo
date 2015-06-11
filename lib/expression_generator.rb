@@ -3,10 +3,10 @@ module ExpressionGenerator
     Expression.new(
       OperandGenerator.generate(
         terminal_variables,
-        current_depth + 1),
+        current_depth),
       OperatorGenerator.generate,
       OperandGenerator.generate(
         terminal_variables,
-        current_depth + 1))
+        current_depth))
   end
 end
