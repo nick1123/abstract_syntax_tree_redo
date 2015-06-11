@@ -1,10 +1,10 @@
 class Terminal
-  def initialize(terminal)
-    @terminal = terminal
+  def initialize(_terminal)
+    @terminal = _terminal.to_s
   end
 
   def to_s
-    @terminal.to_s
+    @terminal
   end
 end
 
